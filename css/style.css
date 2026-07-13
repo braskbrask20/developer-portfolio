@@ -1,0 +1,33 @@
+body {
+margin: 0;
+padding: 30px;
+}
+
+h1 {
+color: #8a1e47;
+font-size: 40px;
+text-align: center;
+}
+
+nav {
+margin-bottom: 30px;
+}
+
+nav a {
+text-decoration: none;
+margin-right: 20px;
+color: #18c552;
+font-weight: bold;
+}
+
+nav a:hover {
+color: rgb(255, 111, 0);
+}
+
+ul {
+padding-left: 20px;
+}
+
+li {
+margin-bottom: 10px;
+}
