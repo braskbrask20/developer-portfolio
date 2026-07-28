@@ -48,3 +48,26 @@ return "Minor";
 console.log(checkAge(20));
 console.log(checkAge(15));
 
+const form = document.getElementById("contactForm");
+
+form.addEventListener("submit", function(event) {
+
+event.preventDefault();
+
+let name = document.getElementById("name").value;
+let email = document.getElementById("email").value;
+let message = document.getElementById("message").value;
+
+if (name === "" || email === "" || message === "") {
+
+document.getElementById("output").textContent =
+"Please fill in all fields.";
+
+} else {
+
+document.getElementById("output").textContent =
+"Thank you, " + name + "! Your message has been received.";
+
+}
+
+});
